@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--    <link rel="stylesheet" href="./assets/css/style.css">-->
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/media-query.css" />
+    <title>Document</title>
+    <style>
+     
+      /*html {*/
+      /**/
+      /*-ms-text-size-adjust: 100%;*/
+      /*-webkit-text-size-adjust: 100%;*/
+      /*}*/
+
+      #wrapper {
+        /*height: 100%;*/
+        width: calc(100% - 30px);
+        max-width: 768px;
+        background: #ccc;
+        margin: 0 auto;
+        user-select: none;
+      }
+
+      /*}*/
+
+      img {
+        /*display: inline-block;*/
+        width: 100%;
+      }
+
+      @media screen and (max-width: 46.1875em) {
+        /*    img {
+                display: block;
+                !*text-align: center;*!
+                 !*padding: 30%;*!
+                !*padding: 0 30%;*!
+
+                !*margin: 0 auto 20px;*!
+                !*object-fit: cover;*!
+                !*width: 60%;*!
+
+            }*/
+
+        .row {
+          /*justify-items: center;*/
+          flex-direction: column;
+        }
+
+        .member-col {
+          /*display: inline-block;*/
+          /*margin: 0 30%;*/
+          margin: 0 auto 20px;
+          width: 50%;
+          /*padding: 0 30%;*/
+        }
+
+        /*#wrapper {*/
+        /*    !*width: calc(100% - 50px);*!*/
+        /*    !*max-width: 768px !important;*!*/
+        /*    !*text-align: center;*!*/
+        /*    !*margin: 0 auto;*!*/
+        /*    width: 100%;*/
+        /*}*/
+      }
+
+      @media screen and (max-width: 100px) {
+        p {
+          /*display: inline-block;*/
+          font-size: min(15px, 10vw);
+          /*margin: 0 auto;*/
+          /*text-align: left;*/
+        }
+      }
+
+      #flex {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .items {
+        margin: 0 30%;
+        width: 60%;
+        height: 120px;
+        background: orange;
+      }
+
+      /*@media screen and (min-width: 64em) and (max-width: 77.4375em) {*/
+      /*    img {*/
+      /*        width: 100%;*/
+      /*    }*/
+      /*}*/
+
+      /*@media screen and (min-width: 69.5625em) {*/
+      /*    img {*/
+      /*        width: 100%;*/
+      /*    }*/
+      /*}*/
+    </style>
+  </head>
+  <body>
+    <div id="grid container ">
+      <div id="wrapper">
+        <div class="row">
+          <div class="member-col col l-4 m-4 c-12">
+            <p style="text-align: center; margin: 0 auto 15px">name</p>
+            <img
+              src="/assets/img/members/bandmember.jpg"
+              alt=""
+              class="band-member"
+            />
+          </div>
+          <div class="member-col col l-4 m-4 c-12">
+            <p style="text-align: center; margin: 0 auto 15px">name</p>
+            <img
+              src="/assets/img/members/bandmember.jpg"
+              alt=""
+              class="band-member"
+            />
+          </div>
+          <div class="member-col col l-4 m-4 c-12">
+            <p style="text-align: center; margin: 0 auto 15px">name</p>
+            <img
+              src="/assets/img/members/bandmember.jpg"
+              alt=""
+              class="band-member"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="flex">
+        <div class="items"></div>
+      </div>
+    </div>
+  </body>
+</html>

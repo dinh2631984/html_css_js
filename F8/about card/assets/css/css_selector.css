@@ -1,0 +1,27 @@
+div:first-of-type {
+  display: inline-block;
+  border: 50px solid;
+  border-color: transparent transparent #5EBBFF;
+}
+
+div:last-of-type {
+  
+  display: inline-block;
+  border: 50px solid;
+  border-color: #5EBBFF transparent transparent ;
+}
+
+div:nth-of-type(2) {
+  display: grid;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  /* background: rgba( 123, 123, 123, 0.3); */
+  background: #7B7B7B4D;
+  border-radius: 10px 30px 20px ;
+  
+}
+
+body {
+  /* background: #A174FF; */
+}

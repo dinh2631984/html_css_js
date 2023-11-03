@@ -1,0 +1,99 @@
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.8rem;
+    border-bottom: 1px solid #e8ebed;
+    height: 6.5rem;
+}
+
+.sologan {
+
+}
+
+.header-icon {
+    margin: 14px 0;
+    width: 37px;
+    height: 37px;
+    /*object-fit: contain;*/
+    border-radius: 5px;
+}
+
+#header span {
+    display: block;
+    float: right;
+    margin-left: 16px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 65px;
+}
+
+.search {
+
+}
+
+.search-text {
+    width: 420px;
+    height: 39px;
+    border: 2px solid #e8ebed;
+    border-radius: 999px;
+    padding-left: 44px;
+}
+
+.login-form {
+
+}
+
+#header button {
+    width: 9.5rem;
+    height: 3.5rem;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+#header button:hover {
+    cursor: pointer;
+}
+
+.login-form__login {
+    border: none;
+    background-color: #fff;
+    /*line-height: 65px;*/
+}
+
+.login-form__register {
+    margin-left: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    background-color: #fff;
+    background-image: linear-gradient(to right bottom,#ff8f26,#ff5117);
+    /*line-height: 65px;*/
+}
+
+
+
+.bg-img {
+    display: flex;
+    align-items: center;
+    margin: 5rem auto 0;
+    width: 96rem;
+    height: 54rem;
+    background-image: url(https://files.fullstack.edu.vn/f8-prod/public-images/62f4df3a83d39.png);
+}
+
+.bg-img div {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 5rem;
+    backdrop-filter: blur(36px) brightness(90%);
+    
+}
+
+.lorem {
+    margin: 2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
