@@ -1,0 +1,16 @@
+div {
+    height: 100px;
+}
+
+.class-1 {
+    background-color: red;
+}
+.class-2 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    background-color: green;
+}
+.class-3 {
+    background-color: blue;
+}

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  padding: 8px 0;
+  position: relative;
+}
+
+.menu-item {
+  display: inline-block;
+  /*position: relative;*/
+}
+
+.menu-item a {
+  border-right: 1px solid #ccc;
+}
+
+.menu a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 16px;
+}
+
+.menu-item:last-of-type {
+  border: none;
+}
+
+.menu-item:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
