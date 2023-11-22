@@ -1,0 +1,50 @@
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.container {
+    position: absolute;
+    left: 30px;
+    /*bottom: 30px;*/
+    width: 40%;
+    bottom: 0;
+    padding: 5px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 3px 1px #ccc;
+    border-radius: 10px;
+    transform: translateY(150%);
+    animation: noti 8s forwards 1 linear;
+}
+
+@keyframes noti {
+    20%,
+    80% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(150%);
+    }
+}
+
+.noti-img {
+    display: block;
+    /*object-fit: contain;*/
+    height: 100%;
+}
+
+.noti-content {
+
+}
+
+.noti-heading {
+
+}
+
+.noti-desc {
+
+}

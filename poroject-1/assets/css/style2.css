@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+/* Common */
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn {
+  padding: 18px 16px;
+  min-width: 98px;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  color: #fff;
+  background: #0f1b4c;
+}
+
+.page-width {
+  max-width: 1110px;
+  width: calc(100vw -48px);
+}
+
+#header {
+  position: relative;
+  background: #e6f0ff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 38px;
+
+  /* max-width: calc(100% - 48px); */
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar .navigation {
+  margin-left: 50px;
+}
+
+.navbar ul a {
+  padding: 0 14px;
+  color: #4f5361;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.navbar ul a:hover {
+  text-decoration: underline;
+}
+
+.navbar .action {
+  margin-left: auto;
+}
+
+.navbar .action .btn {
+  display: inline-block;
+  margin-left: 18px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.content {
+  /* position: relative; */
+  margin-top: 206px;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex;
+  align-items: center; */
+}
+
+#header .content p:first-of-type {
+  margin-bottom: 8px;
+  color: #687690;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+}
+
+#header .content h1 {
+  margin-bottom: 30px;
+  width: 64.5%;
+  color: #000336;
+  font-family: Poppins;
+  font-size: 6.4rem;
+  /* font-style: normal; */
+  font-weight: 700;
+  line-height: 1.18; /* 118.75% */
+  /* line-height: 76px; */
+}
+
+#header .content p:last-of-type {
+  margin-bottom: 40px;
+  width: 50%;
+  color: #5a6473;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  /* font-style: normal; */
+  font-weight: 400;
+  line-height: 1.78; /* 177.778% */
+  /* text-transform: capitalize; */
+}
+
+.content .act {
+  display: inline-block;
+  padding-right: 35px;
+  padding-left: 35px;
+  margin-bottom: 157px;
+}
+
+.content img {
+  position: absolute;
+  /* margin-top: 38px; */
+  left: calc(50% + 100px);
+  bottom: 0;
+  /* left: 64.5%; */
+  /* width:  */
+  /* object-fit: container; */
+}
