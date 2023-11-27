@@ -1,0 +1,203 @@
+@media screen and (max-width: 834px) {
+    .nft_header {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .nft_header .nft_logo {
+        display: flex;
+        align-items: center;
+        gap: .9rem;
+    }
+
+    .nft_header .nft_logo .nft_logo-icon {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .nft_header .nft_logo .nft_logo-desc {
+        font-size: 1.485rem;
+        min-width: 14.956rem;
+        /*width: 19.941rem;*/
+        /*height: 1.98rem;*/
+        font-weight: 600;
+    }
+
+    .nft_header .nft_nav {
+        display: none;
+    }
+
+
+    .nft_header .nft_nav-reponsive {
+        display: flex;
+        /*line-height: 2.4rem;*/
+        align-items: center;
+    }
+
+    .nft_coverProfile {
+        height: 28rem;
+        background-image: url("/assets/img/profile_images/PlaceHolder-tablet.svg");
+    }
+
+
+    .nft_coverProfile-img {
+        /*margin-left: 7rem;*/
+        left: 8.633vw;
+                /*7rem;*/
+
+    }
+
+    /* Artist Info */
+
+    .nft_artistInfo {
+        padding: 8rem 8.633vw 3rem ;
+
+    }
+
+    .nft_artistInfo-top {
+        flex-direction: column;
+        align-items: start;
+        row-gap: 3rem;
+
+    }
+
+    .nft_artistInfo-heading {
+
+        /* H2 - Work Sans */
+        /*font-family: Work Sans;*/
+        font-size: 3.8rem;
+        /*font-style: normal;*/
+        font-weight: 600;
+        line-height: 1.2; /* 56.1px */
+        text-transform: capitalize;
+    }
+
+    .nft_artistInfo-ctas {
+        display: flex;
+        gap: 2rem;
+
+    }
+
+    .nft_artistInfo-ctas button {
+        display: flex;
+        align-items: center;
+        column-gap: 1.2rem;
+        /*justify-content: space-between;*/
+        height: 6rem;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.4;
+        color: white;
+        border-radius: 2rem;
+        border: .2rem solid #A259FF;
+
+    }
+
+    .nft_artistInfo-ctas button:first-child {
+        padding: 0 2.4rem;
+        background: #A259FF;
+    }
+
+    .nft_artistInfo-ctas button:last-child {
+        padding: 0 3rem;
+        background: var(--bg-primary);
+    }
+
+
+
+
+
+
+    .nft_artistInfo-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .nft_artistInfo-stats {
+        display: flex;
+        column-gap: 2rem;
+        width: 51rem;
+        /*height: 7.4rem;*/
+    }
+
+    .nft_artistInfo-stats-item h4 {
+        font-family: Space Mono;
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 1.6; /* 39.2px */
+        text-transform: capitalize;
+    }
+
+    .nft_artistInfo-stats-item {
+        width: calc( (100% - 4rem) / 3);
+    }
+
+    .nft_artistInfo-stats-item p {
+
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.4; /* 35.2px */
+        text-transform: capitalize;
+
+    }
+
+    .nft_artistInfo h5 {
+        margin-bottom: 1rem;
+        color: #858584;
+        font-family: Space Mono;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.4; /* 22.4px */
+    }
+
+    .nft_artistInfo-bio p {
+        font-size: 1.6rem;
+        /*font-style: normal;*/
+        font-weight: 400;
+        line-height: 1.4; /* 22.4px */
+    }
+
+    .nft_artistInfo-links {
+
+    }
+
+    .nft_artistInfo-links-deitals {
+        display: flex;
+        column-gap: 1rem;
+    }
+
+    .nft_artistInfo-links-item img{
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .nft_header {
+        padding-right: 3rem;
+        padding-left: 3rem;
+        /*padding-bottom: 1.5rem;*/
+    }
+
+    .nft_coverProfile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nft_coverProfile {
+        height: 25rem;
+        background-image: url("/assets/img/profile_images/PlaceHolder-mobile.svg");
+    }
+
+    .nft_coverProfile-img {
+
+        /*display: inline-block;*/
+        /*margin: 0 auto;*/
+        /*right: 50%;*/
+        /*margin-left: 0;*/
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
