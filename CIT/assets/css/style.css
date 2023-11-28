@@ -261,26 +261,6 @@ body {
     border-top: 1px solid #3c3c3c;
 }
 
-/*.nft_tabBar-item::after {*/
-/*    content: "";*/
-/*    width: 100%;*/
-/*    height: .2rem;*/
-/*    background: red;*/
-/*    position: absolute;*/
-/*    bottom: 0;*/
-/*}*/
-
-.nft_tabBar-item::after {
-    content: "";
-    width: 100%;
-    height: .2rem;
-    /*background: attr("#858584");*/
-    position: absolute;
-    bottom: 0;
-
-
-}
-
 .nft_tabBar-item {
     position: relative;
     display: flex;
@@ -288,15 +268,6 @@ body {
     align-items: center;
     justify-content: center;
     column-gap: 1.6rem;
-}
-
-.nft_tabBar-item-active {
-    color: #fff;
-}
-
-.nft_tabBar-item-active .nft_tabBar-number {
-    /*color: white;*/
-    background: #858584;
 }
 
 /*.nft_tabBar-item:first-child {*/
